@@ -17,6 +17,7 @@ img {
     padding: 20px;
     font-family: sans-serif;
     color: #ffffff;
+    font-size: 27px;
 }
 
 .section-title {
@@ -24,10 +25,19 @@ img {
     font-weight: 500;
     font-size: 57px;
     line-height: 100%;
-    letter-spacing: 0%;
-    
+    letter-spacing: 0%;    
 }
 
 .section-content {
     margin-top: 20px;
+}
+
+.button {
+    background-color: #4285f4; /* Синий цвет кнопки */
+    color: white; /* Белый текст на кнопке */
+    border: none; /* Без границы */
+    border-radius: 5px; /* Скругленные углы */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета при наведении */
 }
