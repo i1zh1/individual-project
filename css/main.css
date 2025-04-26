@@ -108,6 +108,14 @@ p {
 }
 
 @media (orientation: portrait) {
+    #scrollToTopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        display: none;
+        max-width: 200px;
+        border: 0px;
+    }
     h1 {
         font-size: 120px;
     }
