@@ -1,2 +1,1 @@
-"# individual-project" 
-"# individual-project" 
+индивидуальный проект 
