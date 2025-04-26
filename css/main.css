@@ -86,7 +86,7 @@ img {
 }
 
 
-@media (max-width: 900px) {
+@media (orientation: portrait) {
     .container {
         margin: auto;
         padding: 20px;
