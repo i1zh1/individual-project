@@ -15,8 +15,21 @@ img {
     left: 0px;
     top: 0px;
 
-    background: #3e4ec7;
+    background: linear-gradient(180deg, #000000 25%, #ff9f00 25%, #ff9f00 50%, #000000 50%, #000000 75%, #ff9f00 75%, #ff9f00 100%);
+    background-size: 60px 60px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text-9 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    margin: auto;
+
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    color: #FFFFFF;
 }
 .container {
     position: relative;
@@ -201,8 +214,21 @@ h3 {
         left: 0px;
         top: 0px;
 
-        background: #4F5AA8;
+        background: linear-gradient(180deg, #000000 25%, #ff9f00 25%, #ff9f00 50%, #000000 50%, #000000 75%, #ff9f00 75%, #ff9f00 100%);
+        background-size: 140px 140px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .text-9 {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        margin: auto;
+    
+        font-family: "Great Vibes", cursive;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 100px;
+        color: #FFFFFF;
     }
 }
 
