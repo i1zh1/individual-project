@@ -39,6 +39,25 @@ img {
     padding: 20px;
     background-color: white;
   }
+.absolute-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 60px;
+
+}
+.bottom-text {
+    position: relative;
+    top: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #888888;
+
+    text-align: center;
+}
 
 .text {   
     position: relative;
