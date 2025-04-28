@@ -1,7 +1,6 @@
 body {
     background-color: white;
 }
-
 img {
     position: relative;
     max-width: 100%;
@@ -39,14 +38,6 @@ img {
     padding: 20px;
     background-color: white;
   }
-.absolute-container {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    padding: 60px;
-
-}
 .bottom-text {
     position: relative;
     top: 50px;
@@ -55,10 +46,10 @@ img {
     font-weight: 400;
     font-size: 15px;
     color: #888888;
+    padding: 30px;
 
     text-align: center;
 }
-
 .text {   
     position: relative;
     width: auto;
@@ -107,7 +98,6 @@ h3 {
 .button__back:hover {
     background-color: #4a55a7;
 }
-
 #scrollToTopBtn {
     position: fixed;
     bottom: 20px;
@@ -116,7 +106,6 @@ h3 {
     max-width: 100px;
     border: 0px;
 }
-
 @media (orientation: portrait) {
     #scrollToTopBtn {
         position: fixed;
