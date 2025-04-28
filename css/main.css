@@ -98,7 +98,7 @@ h3 {
     border: 0px;
 }
 
-@media (orientation: portrait) or ((orientation: portrait) and (prefers-color-scheme: dark)) {
+@media (orientation: portrait) {
     #scrollToTopBtn {
         position: fixed;
         bottom: 20px;
